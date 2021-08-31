@@ -5,9 +5,7 @@ export default function Pantalla(props) {
   console.log(valor);
 
   if (isNaN(valor)) {
-    valor1 = valor;
     props.setValor(0);
-    console.log("valogo" + valor1);
   }
   return (
     <>
