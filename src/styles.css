@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  color: white;
+}
+
+* {
+  background-color: #2b2a33;
+  color: white;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  all: unset;
+  text-align: center;
+  box-shadow: 2px 2px 15px -5px #18181d;
+}
+@media only screen and (min-width: 420px) {
+  button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  button {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  button {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+  }
+}
+
+.botonGenerico {
+  background-color: #333333;
+}
+
+.botonLateral {
+  background-color: #ff9e09;
+}
+
+.botonSuperior {
+  background-color: #a5a5a5;
+  color: #2b2a33;
+}
